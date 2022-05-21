@@ -69,15 +69,18 @@
         android:layout_margin="20dp"
         />
 
-    <TextView
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/resisterbtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/forgotpass"
         android:layout_below="@id/loginbtn"
-        android:text="Forgot password?"
-        android:textColor="@color/white"
+        android:text="SIGN UP"
+        android:backgroundTint="@color/design_default_color_secondary"
         android:layout_centerHorizontal="true"
-        android:layout_margin="20dp"/>
+        android:layout_margin="20dp"
+        android:onClick="btnNext"
+        />
 
     <TextView
         android:layout_width="wrap_content"
