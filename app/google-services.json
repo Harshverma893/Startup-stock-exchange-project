@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "2143813175",
+    "project_id": "startup-stock-exchange",
+    "storage_bucket": "startup-stock-exchange.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:2143813175:android:57a4285839adc09cd509b2",
+        "android_client_info": {
+          "package_name": "com.example.startupstockexchange"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "2143813175-kea4q383hf0kcp1g3odbn4cblkj53tfl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlgzcJE3vL0JMtuWte_wnwz2Doev_FNwc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "2143813175-kea4q383hf0kcp1g3odbn4cblkj53tfl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
