@@ -14,7 +14,6 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.auth.FirebaseUser;
 
 public class SignUpActivity extends AppCompatActivity {
     FirebaseAuth register;
@@ -22,7 +21,6 @@ public class SignUpActivity extends AppCompatActivity {
     Button signUp;
     EditText password;
     EditText confirmPassword ;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
