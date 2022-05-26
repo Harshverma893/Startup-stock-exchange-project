@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
                         startActivity(intent);
                     }
                     else{
-                        Toast.makeText(MainActivity.this, "Login Failed!!", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(MainActivity.this, "SignUp Required!!", Toast.LENGTH_SHORT).show();
                     }
                 }
             });

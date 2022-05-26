@@ -14,6 +14,7 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 
 public class SignUpActivity extends AppCompatActivity {
     FirebaseAuth register;
@@ -33,17 +34,17 @@ public class SignUpActivity extends AppCompatActivity {
         confirmPassword = findViewById(R.id.confirmPassword);
     }
 
-//    public void verifyEmail(View view){
-//        u.sendEmailVerification()
-//                .addOnCompleteListener(new OnCompleteListener<Void>() {
-//                    @Override
-//                    public void onComplete(@NonNull Task<Void> task) {
-//                        if (task.isSuccessful()) {
-//                            Toast.makeText(SignUpActivity.this, "Email Sent! ", Toast.LENGTH_SHORT).show();
-//                        }
-//                    }
-//                });
-//    }
+    public void verifyEmail(FirebaseUser u){
+        u.sendEmailVerification()
+                .addOnCompleteListener(new OnCompleteListener<Void>() {
+                    @Override
+                    public void onComplete(@NonNull Task<Void> task) {
+                        if (task.isSuccessful()) {
+                            Toast.makeText(SignUpActivity.this, "Email Sent! ", Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                });
+    }
     public void signUpDone(View view) {
         String user = usernameSignup.getText().toString();
         String pass1 = password.getText().toString();
@@ -59,14 +60,10 @@ public class SignUpActivity extends AppCompatActivity {
                 @Override
                 public void onComplete(@NonNull Task<AuthResult> task) {
                     if(task.isSuccessful()){
-//                        if(u.isEmailVerified()){
+                            verifyEmail(register.getCurrentUser());
                             Toast.makeText(getApplicationContext(),"Registration Successful :)",Toast.LENGTH_LONG).show();
                             Intent intent = new Intent(SignUpActivity.this,MainActivity.class);
                             startActivity(intent);
-//                        }
-//                        else{
-//                            Toast.makeText(getApplicationContext(), "Verify you email!!", Toast.LENGTH_SHORT).show();
-//                        }
                     }
                     else{
                         Toast.makeText(SignUpActivity.this, "Registration Failed!!", Toast.LENGTH_LONG).show();
