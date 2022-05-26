@@ -38,12 +38,15 @@ public class MainActivity extends AppCompatActivity {
             user.signInWithEmailAndPassword(u,p).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                 @Override
                 public void onComplete(@NonNull Task<AuthResult> task) {
-                    if(task.isSuccessful()){
+                    if(task.isSuccessful() && user.getCurrentUser().isEmailVerified()){
                         Intent intent = new Intent(MainActivity.this, homePageActivity.class);
                         startActivity(intent);
                     }
-                    else{
+                    else if( !task.isSuccessful()){
                         Toast.makeText(MainActivity.this, "SignUp Required!!", Toast.LENGTH_SHORT).show();
+                    }
+                    else{
+                        Toast.makeText(MainActivity.this, "Email Not Verified!!", Toast.LENGTH_SHORT).show();
                     }
                 }
             });
