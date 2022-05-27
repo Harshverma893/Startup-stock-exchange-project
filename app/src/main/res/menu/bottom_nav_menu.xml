@@ -19,7 +19,6 @@
     <item
         android:id="@+id/navigation_account"
         android:icon="@drawable/person"
-        android:iconTint="@color/black"
         android:title="@string/title_account"/>
 
 </menu>
