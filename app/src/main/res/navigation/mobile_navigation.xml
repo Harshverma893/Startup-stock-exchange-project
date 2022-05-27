@@ -23,4 +23,9 @@
     <fragment android:id="@+id/navigation_account"
         android:name="com.example.startupstockexchange.ui.account.AccountFragment"
         tools:layout="@layout/fragment_notifications"/>
+
+    <fragment android:id="@+id/navigation_search"
+        android:name="com.example.startupstockexchange.ui.search.SearchFragment"
+        tools:layout="@layout/fragment_notifications"/>
+
 </navigation>

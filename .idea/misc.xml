@@ -5,11 +5,18 @@
       <map>
         <entry key="..\:/Users/ngw33/AndroidStudioProjects/Startup-stock-exchange-project/app/src/main/res/drawable/chat.xml" value="0.2095" />
         <entry key="..\:/Users/ngw33/AndroidStudioProjects/Startup-stock-exchange-project/app/src/main/res/drawable/circle.xml" value="0.2095" />
+        <entry key="..\:/Users/ngw33/AndroidStudioProjects/Startup-stock-exchange-project/app/src/main/res/drawable/grp.xml" value="0.2095" />
+        <entry key="..\:/Users/ngw33/AndroidStudioProjects/Startup-stock-exchange-project/app/src/main/res/drawable/home.xml" value="0.2095" />
+        <entry key="..\:/Users/ngw33/AndroidStudioProjects/Startup-stock-exchange-project/app/src/main/res/drawable/hospital.xml" value="0.2095" />
+        <entry key="..\:/Users/ngw33/AndroidStudioProjects/Startup-stock-exchange-project/app/src/main/res/drawable/ic_baseline_info_24.xml" value="0.2095" />
+        <entry key="..\:/Users/ngw33/AndroidStudioProjects/Startup-stock-exchange-project/app/src/main/res/drawable/ic_baseline_notifications_24.xml" value="0.2095" />
         <entry key="..\:/Users/ngw33/AndroidStudioProjects/Startup-stock-exchange-project/app/src/main/res/drawable/ic_baseline_person_outline_24.xml" value="0.1355" />
+        <entry key="..\:/Users/ngw33/AndroidStudioProjects/Startup-stock-exchange-project/app/src/main/res/drawable/ic_logout.xml" value="0.2095" />
         <entry key="..\:/Users/ngw33/AndroidStudioProjects/Startup-stock-exchange-project/app/src/main/res/drawable/ic_notification.xml" value="0.2095" />
         <entry key="..\:/Users/ngw33/AndroidStudioProjects/Startup-stock-exchange-project/app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.2095" />
         <entry key="..\:/Users/ngw33/AndroidStudioProjects/Startup-stock-exchange-project/app/src/main/res/drawable/person.xml" value="0.1355" />
         <entry key="..\:/Users/ngw33/AndroidStudioProjects/Startup-stock-exchange-project/app/src/main/res/drawable/person2.xml" value="0.1355" />
+        <entry key="..\:/Users/ngw33/AndroidStudioProjects/Startup-stock-exchange-project/app/src/main/res/drawable/search.xml" value="0.2095" />
         <entry key="..\:/Users/ngw33/AndroidStudioProjects/Startup-stock-exchange-project/app/src/main/res/layout/activity_home.xml" value="0.12" />
         <entry key="..\:/Users/ngw33/AndroidStudioProjects/Startup-stock-exchange-project/app/src/main/res/layout/activity_home_page.xml" value="0.11548913043478261" />
         <entry key="..\:/Users/ngw33/AndroidStudioProjects/Startup-stock-exchange-project/app/src/main/res/layout/activity_main.xml" value="0.16652059596844873" />
@@ -20,7 +27,7 @@
         <entry key="..\:/Users/ngw33/AndroidStudioProjects/Startup-stock-exchange-project/app/src/main/res/layout/fragment_home.xml" value="0.16246259085079093" />
         <entry key="..\:/Users/ngw33/AndroidStudioProjects/Startup-stock-exchange-project/app/src/main/res/layout/fragment_home_page_activity.xml" value="0.18072916666666666" />
         <entry key="..\:/Users/ngw33/AndroidStudioProjects/Startup-stock-exchange-project/app/src/main/res/layout/fragment_notifications.xml" value="0.16246259085079093" />
-        <entry key="..\:/Users/ngw33/AndroidStudioProjects/Startup-stock-exchange-project/app/src/main/res/menu/bottom_nav_menu.xml" value="0.1" />
+        <entry key="..\:/Users/ngw33/AndroidStudioProjects/Startup-stock-exchange-project/app/src/main/res/menu/bottom_nav_menu.xml" value="0.4" />
       </map>
     </option>
   </component>
