@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
                 @Override
                 public void onComplete(@NonNull Task<AuthResult> task) {
                     if(task.isSuccessful() && user.getCurrentUser().isEmailVerified()){
-                        Intent intent = new Intent(MainActivity.this, homePageActivity.class);
+                        Intent intent = new Intent(MainActivity.this, HomeActivity.class);
                         startActivity(intent);
                     }
                     else if( !task.isSuccessful()){
