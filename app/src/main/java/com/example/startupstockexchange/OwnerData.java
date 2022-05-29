@@ -10,6 +10,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.FirebaseAuth;
@@ -53,18 +54,10 @@ public class OwnerData extends AppCompatActivity {
         u.put("Bank Account",bankAc.getText().toString());
         u.put("IFSC",ifsc.getText().toString());
 
-        DB.collection("Owners").add(u).addOnSuccessListener(new OnSuccessListener<DocumentReference>() {
-            @Override
-            public void onSuccess(DocumentReference documentReference) {
-                Toast.makeText(OwnerData.this, "Enjoy Tech :} ", Toast.LENGTH_SHORT).show();
-                Intent intent = new Intent(OwnerData.this,HomeActivity.class);
-                startActivity(intent);
-            }
-        }).addOnFailureListener(new OnFailureListener() {
-            @Override
-            public void onFailure(@NonNull Exception e) {
-                Toast.makeText(OwnerData.this, "Failed!!", Toast.LENGTH_SHORT).show();
-            }
-        });
+        DocumentReference user1 = DB.collection("Owners").document(user.getEmail());
+        user1.set(u);
+        Toast.makeText(OwnerData.this, "Enjoy Tech :} ", Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(OwnerData.this,HomeActivity.class);
+        startActivity(intent);
     }
 }
