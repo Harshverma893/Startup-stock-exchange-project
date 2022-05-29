@@ -13,10 +13,19 @@
         <entry key="..\:/Users/Harsh Verma/StudioProjects/Startup-stock-exchange-project/app/src/main/res/layout/fragment_home_page_activity.xml" value="0.17708333333333334" />
         <entry key="..\:/Users/Harsh Verma/StudioProjects/Startup-stock-exchange-project/app/src/main/res/layout/fragment_notifications.xml" value="0.19519927536231885" />
         <entry key="..\:/Users/Harsh Verma/StudioProjects/Startup-stock-exchange-project/app/src/main/res/menu/bottom_nav_menu.xml" value="0.2296875" />
+        <entry key="..\:/Users/ngw33/AndroidStudioProjects/Startup-stock-exchange-project/app/src/main/res/drawable/border.xml" value="0.2085" />
         <entry key="..\:/Users/ngw33/AndroidStudioProjects/Startup-stock-exchange-project/app/src/main/res/drawable/chat.xml" value="0.2095" />
+        <entry key="..\:/Users/ngw33/AndroidStudioProjects/Startup-stock-exchange-project/app/src/main/res/layout/activity_home.xml" value="0.11684782608695653" />
+        <entry key="..\:/Users/ngw33/AndroidStudioProjects/Startup-stock-exchange-project/app/src/main/res/layout/activity_investor_data.xml" value="0.19791666666666666" />
         <entry key="..\:/Users/ngw33/AndroidStudioProjects/Startup-stock-exchange-project/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/Users/ngw33/AndroidStudioProjects/Startup-stock-exchange-project/app/src/main/res/layout/activity_main2.xml" value="0.19791666666666666" />
+        <entry key="..\:/Users/ngw33/AndroidStudioProjects/Startup-stock-exchange-project/app/src/main/res/layout/activity_owner_data.xml" value="0.18072916666666666" />
+        <entry key="..\:/Users/ngw33/AndroidStudioProjects/Startup-stock-exchange-project/app/src/main/res/layout/activity_register.xml" value="0.19791666666666666" />
+        <entry key="..\:/Users/ngw33/AndroidStudioProjects/Startup-stock-exchange-project/app/src/main/res/layout/fragment_account.xml" value="0.19791666666666666" />
+        <entry key="..\:/Users/ngw33/AndroidStudioProjects/Startup-stock-exchange-project/app/src/main/res/layout/fragment_dashboard.xml" value="0.19791666666666666" />
+        <entry key="..\:/Users/ngw33/AndroidStudioProjects/Startup-stock-exchange-project/app/src/main/res/layout/fragment_home.xml" value="0.19791666666666666" />
         <entry key="..\:/Users/ngw33/AndroidStudioProjects/Startup-stock-exchange-project/app/src/main/res/layout/fragment_home_page_activity.xml" value="0.18072916666666666" />
+        <entry key="..\:/Users/ngw33/AndroidStudioProjects/Startup-stock-exchange-project/app/src/main/res/layout/fragment_notifications.xml" value="0.19791666666666666" />
       </map>
     </option>
   </component>

@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
     EditText username ;
     EditText password;
     FirebaseAuth user;
+    boolean firstTime = false;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,8 +40,15 @@ public class MainActivity extends AppCompatActivity {
                 @Override
                 public void onComplete(@NonNull Task<AuthResult> task) {
                     if(task.isSuccessful() && user.getCurrentUser().isEmailVerified()){
-                        Intent intent = new Intent(MainActivity.this, HomeActivity.class);
-                        startActivity(intent);
+                        if(firstTime == false){
+                            firstTime = true;
+                            Intent intent = new Intent(MainActivity.this,Register.class);
+                            startActivity(intent);
+                        }
+                        else{
+                            Intent intent = new Intent(MainActivity.this, HomeActivity.class);
+                            startActivity(intent);
+                        }
                     }
                     else if( !task.isSuccessful()){
                         Toast.makeText(MainActivity.this, "SignUp Required!!", Toast.LENGTH_SHORT).show();
