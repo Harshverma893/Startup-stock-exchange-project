@@ -24,13 +24,14 @@
 
     <TextView
         android:id="@+id/textView6"
-        android:layout_width="120dp"
-        android:layout_height="63dp"
+        android:layout_width="100dp"
+        android:layout_height="43dp"
+        android:backgroundTint="@color/purple_200"
         android:fontFamily="@font/roboto"
         android:gravity="center"
         android:text="Welcomes you"
         android:textColor="#FFFFFF"
-        android:textSize="24dp"
+        android:textSize="18dp"
         app:layout_constraintBottom_toTopOf="@+id/textView3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -74,6 +75,7 @@
                 android:layout_height="48dp"
                 android:background="@drawable/border"
                 android:ems="10"
+                android:fontFamily="@font/roboto"
                 android:gravity="center"
                 android:hint="Name"
                 android:inputType="textPersonName"
@@ -81,7 +83,7 @@
 
             <Space
                 android:layout_width="0dp"
-                android:layout_height="18dp"></Space>
+                android:layout_height="15dp"></Space>
 
             <EditText
                 android:id="@+id/age"
@@ -89,6 +91,7 @@
                 android:layout_height="48dp"
                 android:background="@drawable/border"
                 android:ems="10"
+                android:fontFamily="@font/roboto"
                 android:gravity="center"
                 android:hint="Age"
                 android:inputType="textPersonName"
@@ -96,7 +99,8 @@
 
             <Space
                 android:layout_width="0dp"
-                android:layout_height="18dp"></Space>
+                android:layout_height="15dp"></Space>
+
 
             <EditText
                 android:id="@+id/aadhar"
@@ -104,6 +108,7 @@
                 android:layout_height="48dp"
                 android:background="@drawable/border"
                 android:ems="10"
+                android:fontFamily="@font/roboto"
                 android:gravity="center"
                 android:hint="Aadhaar Number"
                 android:inputType="number"
@@ -111,7 +116,8 @@
 
             <Space
                 android:layout_width="0dp"
-                android:layout_height="18dp"></Space>
+                android:layout_height="15dp"></Space>
+
 
             <EditText
                 android:id="@+id/Pan"
@@ -119,6 +125,7 @@
                 android:layout_height="48dp"
                 android:background="@drawable/border"
                 android:ems="10"
+                android:fontFamily="@font/roboto"
                 android:gravity="center"
                 android:hint="Pan Number"
                 android:inputType="textPersonName"
@@ -126,7 +133,7 @@
 
             <Space
                 android:layout_width="0dp"
-                android:layout_height="18dp"></Space>
+                android:layout_height="15dp"></Space>
 
 
             <EditText
@@ -135,6 +142,7 @@
                 android:layout_height="48dp"
                 android:background="@drawable/border"
                 android:ems="10"
+                android:fontFamily="@font/roboto"
                 android:gravity="center"
                 android:hint="Bank Account Number"
                 android:inputType="number"
@@ -142,7 +150,7 @@
 
             <Space
                 android:layout_width="0dp"
-                android:layout_height="18dp"></Space>
+                android:layout_height="15dp"></Space>
 
             <EditText
                 android:id="@+id/ifsc"
@@ -150,6 +158,7 @@
                 android:layout_height="48dp"
                 android:background="@drawable/border"
                 android:ems="10"
+                android:fontFamily="@font/roboto"
                 android:gravity="center"
                 android:hint="Bank IFSC Number"
                 android:inputType="textPersonName"
